@@ -1,0 +1,19 @@
+{
+  "name": "encrypter",
+  "version": "1.0.0",
+  "description": "encrypter / decrypter for env",
+  "main": "index.js",
+  "repository": "https://github.com/albno273/encrypter.git",
+  "author": "Yuki Umeda <100minus1birds.equal.swan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "scripts": {
+    "encrypt": "node ./encrypt.js",
+    "decrypt": "node ./decrypt.js"
+  },
+  "volta": {
+    "node": "16.18.1"
+  }
+}
